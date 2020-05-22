@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+@import "header";
+
+@import "inner";
+@import "services";
+@import "work";
+
+.testimonial{
+	width: 100%;
+	background-color: #efefef;
+	padding: 52px 0 65px 0;
+	&__center{
+		width: 60%;
+		margin: 0 20% 0 20%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		-ms-align-items: center;
+		align-items: center;
+		&>img{
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+		&>p{
+			font-family: 'Roboto Slab', serif;
+			font-size: 20px;
+			line-height: 1.5;
+			color: #a1a1a1;
+		}
+	}
+}
+
+
+@import "footer";
+@import "breakpoints";

@@ -1,0 +1,128 @@
+footer{
+	width: 100%;
+	background-color: #1e1e1e;
+	padding: 50px 0 112px 0;
+}
+
+.footer{
+	width: 100%;
+	border-bottom: 2px solid rgba(255,255,255,0.1);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 400;
+	color: #cecece;
+}
+.get__in__touch{
+	width: 25%;
+	padding-bottom: 74px;
+	list-style: none;
+	& h3{
+		color: #6c6c6c;
+		font-family: "Roboto Condensed";
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 22px;
+		text-transform: uppercase;
+	}
+	& p{
+		padding: 24px 0 33px 0;
+	}
+	& li {
+		color:#cecece;
+		margin-left: 15px;
+		text-align: left;
+		line-height: 24px;
+		text-decoration: none;
+		padding-left: 14px;
+	}
+
+}
+.location{
+	margin-left: 14px;
+	list-style-image:  url(../i/footer/location.png) ;
+}
+.phone{
+	list-style-image: url(../i/footer/phone.png);
+	margin-left: 14px;
+}
+.mail{
+	list-style-image: url(../i/footer/Message_small.png);
+	margin-left: 14px;
+}
+.twitter{
+	width: 25%;
+	&>h3{
+		color: #6c6c6c;
+		font-family: "Roboto Condensed";
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 22px;
+		text-transform: uppercase;
+		padding-bottom: 25px;
+	}
+	& li{
+		list-style-image: url(../i/footer/tw.png);
+		margin-left: 15px;
+		text-decoration: none;
+		color: #cecece;
+		padding-left: 15px;
+		padding-bottom: 30px;
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}	
+}
+
+.popular__posts{
+	width: 25%;
+	& h3{
+		color: #6c6c6c;
+		font-family: "Roboto Condensed";
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 22px;
+		text-transform: uppercase;
+		padding-bottom: 24px;
+	}
+	& li{
+		list-style: none;
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		padding-bottom: 28px;
+		& a{
+			text-decoration: none;
+			color: #cacaca;
+			line-height: inherit;
+		}
+		& time{
+			display: block;
+			font-size: 12px;
+			line-height: 25px;
+		}
+	}
+}
+.about__us{
+	width: 25%;
+	& h3{
+		color: #6c6c6c;
+		font-family: "Roboto Condensed";
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 22px;
+		text-transform:uppercase;
+		padding-bottom: 25px;
+	}
+	& p{
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		padding-bottom: 50px;
+	}
+}
